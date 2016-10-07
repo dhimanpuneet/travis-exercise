@@ -1,2 +1,2 @@
-sudo apt-get install ansible
-ansible-playbook -i inventory.ini site.yml -y
+sudo apt-get -y install ansible
+ansible-playbook -i inventory.ini site.yml 
