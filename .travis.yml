@@ -1,4 +1,7 @@
-language: python
-environment:
-  - 2.7
-script: python hello.py 
+language: bash
+sudo: yes
+addons:
+  ssh_known_hosts:
+  - localhost
+
+script: bash test_ansible.sh
