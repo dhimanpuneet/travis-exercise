@@ -1,2 +1,3 @@
 language: bash
+sudo: yes
 script: bash test_ansible.sh
