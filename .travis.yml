@@ -1,4 +1,2 @@
-language: python
-environment:
-  - 2.7
-script: python hello.py 
+language: bash
+script: bash test_ansible.sh
