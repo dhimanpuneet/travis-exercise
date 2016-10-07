@@ -1,0 +1,10 @@
+- hosts: all
+  sudo: yes
+  tasks:
+    - debug: msg="starting xyz...."
+    - apt: name=apache2
+    - shell: service apache2 status
+      register: res
+    - debug: var=res
+
+ 
