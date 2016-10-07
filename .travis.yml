@@ -1,0 +1,4 @@
+language: python
+environment:
+  - 2.7
+script: python hello.py 
